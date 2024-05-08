@@ -5,7 +5,7 @@
   "scripts": {
     "start": "rm -rf .parcel-cache && parcel index.html",
     "build": "rm -rf .parcel-cache parcel build index.html",
-    "build-and-serve": "parcel build index.html && node server.js"
+    "build-and-serve": "parcel build index.html && node function/server.js"
   },
   "keywords": [],
   "author": "",
